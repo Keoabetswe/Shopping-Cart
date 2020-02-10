@@ -1,0 +1,485 @@
+﻿/* ------------------- Main containers ------------------- */
+
+body 
+{
+	background:url('../images/backgrounds(BLUE).jpg');	
+}
+
+
+/* -------------- Top row -------------- */
+
+#top 
+{   
+	margin-bottom: 1px; 	
+	padding: 10px;
+	background:#728BC1;
+	border-radius:10px;
+	text-align:center;
+}
+
+
+/* -------------- Navigation -------------- */
+
+.navbar
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	background: #728BC1;
+	color:#ffffff;
+	font-size: 14px;
+	text-align:center;
+	border-radius:10px;
+	top: 0px;
+	left: 0px;
+
+}
+
+
+.navbar-header * 
+{
+	color:#ffffff;
+	border: solid 1px black;
+	text-align:center;
+}
+
+.navbar-nav 
+{
+	float:none;
+	text-align:center;
+}
+
+
+
+nav a 
+{
+	display:inline-block;
+	color:#ffffff;
+
+}
+
+nav a:hover 
+{
+	color:#ffffff;
+	background:#8CA5D6 !important;
+	border-radius:10px;
+}
+
+.navbarMedia /* removes pointer cursor on media (page N/A) */
+{
+	cursor:default;
+}
+
+
+
+/* centers navbar*/
+
+.navbar-nav
+{
+	float:none;
+	text-align:center;
+}
+
+.navbar-nav li
+{
+	display:inline-block;
+	float:none;
+}
+
+/* -------------- Main content area -------------- */
+
+#content 
+{
+	border-radius:10px; 
+	background:#728BC1;
+	Margin-bottom:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:auto;
+	overflow:hidden;
+}
+
+
+*.IndexContent
+{
+	font-size:20px;
+}
+
+
+*.ProductsContent
+{
+	font-size:20px;
+}
+
+/* ---------- Headings -----------*/
+
+h1, h2, h3 
+{
+	color:white;
+	font-weight:normal;
+	font-family:Aref Ruqaa;	
+	text-align:center;
+}
+
+.container h1
+{
+	font-family:"Times New Roman", Times, serif;
+	font-size:56px;
+	text-align:center;
+}
+
+.header h1
+{
+	text-align:center;
+}
+
+/* ------------ Text---------- */
+
+*.p  /*font type for all pages*/ 
+{
+	text-align: justify;
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* -----------Images -----------*/
+
+#content .pull-left 
+{
+	margin:0px 10px 10px 0px;
+}
+
+.Logo
+{
+	border-color: inherit; 
+	border-width: 0px; 
+	top: 0px; 
+	left: 0px;
+	border-radius:10px;
+}
+
+
+*.indexImages img
+{
+
+	border: solid 3px white;
+	border-radius:5px;
+	height:132px;
+	margin-bottom:1em;
+	background-color:silver;
+	overflow:hidden;
+	width:230px;
+	margin:10px 10px;	
+}
+
+/* ---------- Links ----------- */
+
+#content a 
+{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#content a:visited 
+{
+	color:lightgrey;
+}
+
+#content a:hover 
+{
+	color:white;
+}
+
+
+#references a:hover 
+{
+	color:blue;
+}
+
+
+
+/* -------------- Sidebar -------------- */
+
+#sidebar 
+{
+	Padding-top: 20px;
+	color:black;
+	font-weight:normal;
+}
+
+
+.panel-default 
+{
+	background:#D9BF8F;
+	background-color:silver;
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#sidebar-image .panel-body 
+{ 
+	padding:0px;
+	color:#ffffff;
+	font-family :Aref Ruqaa;	
+}
+
+
+*.panel-default p
+{
+	text-align: justify;	
+}
+
+/* -------------- Footer -------------- */
+
+#footer 
+{
+	border-radius:10px;
+	background:#728BC1;
+	Padding-top:10px;
+	padding-bottom:7px;
+	color:#ffffff;
+ 	Margin-bottom:15px;
+}
+
+#footer em
+{
+	float:right;
+	font-size:15px;
+}
+
+#footer:hover em
+{
+	color:blue;
+}
+
+#footer a 
+{
+	color:#ffffff;
+	font-size:14px;
+}
+
+*.fa /* social media icons */
+{
+	border-radius:10px;
+	background:#728BC1;
+	Padding-top:5px;
+	padding-bottom:5px;
+ 	Margin:0px 5px;
+	float:right;	
+}
+
+/* ------------------- Forms & Buttons ------------------- */
+
+input, select, textarea  
+{
+	border: solid 1px #D9BF8F;
+	Margin-top:1px;
+}
+
+.btn-login
+{ 
+	background: activecaption;
+	border-color:beige;
+	margin-right:90px;
+	margin-top:3px;
+}
+
+.btn-register 
+{ 
+	background: activecaption;
+	border-color:beige;
+	margin-right:90px;
+	margin-top:3px;
+}
+
+.btn-login:hover 
+{ 
+	background:beige;
+	border-color: white; 
+	color: #A84111;
+}
+
+.btn-register:hover 
+{ 
+	background:beige;
+	border-color: white; 
+	color: #A84111;
+}
+
+.btn-submit
+{ 
+	background: activecaption;
+	border-color:beige;
+}
+
+.btn-submit:hover 
+{ 
+	background:beige;
+	border-color: white; 
+	color: #A84111;
+}
+
+.error 
+{
+	color: #f00;
+}
+
+.error-highlight 
+{
+	border: 1px solid #f00;
+}
+
+/* ------------------- Gallery ------------------- */
+
+#gallery img 
+{
+	margin: 12px;
+	text-align:center;
+}
+
+/* -------------- Slideshow --------------- */
+
+#container
+{
+	width:100%;
+	height:300px;
+	border:3px solid #728BC1; 
+	margin:0 auto;
+	position:relative;
+	border-radius:10px;
+}
+
+#container img
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	border-radius:8px;
+} 
+				
+				
+.prev, .next
+{
+	position:absolute;
+	top:45%;
+	color:#f2f2f2;
+	font-weight:bold;
+	padding:10px 10px;
+	font-size:18px;
+	border-radius:0px 3px 3px 0px;
+	cursor:pointer;
+}		
+
+.next
+{
+	border-radius:3px 0px 0px 3px;
+	right:0;
+}
+		
+.prev:hover, .next:hover
+{
+	background:rgba(0,0,0,0.8);
+	text-decoration:none;
+}
+		
+		
+.fade
+{
+	animation-name:fade;
+	animation-duration:0.5s;
+}
+		
+@keyframes fade
+{
+	from{opacity:0.4}
+	to{opacity:1}	
+}
+
+
+/* -------- Screen Size ---------- */
+
+@media screen and (max-width: 700px)
+{
+	ul li, ul li.right{
+		float: none;
+
+		overflow:hidden;
+	}
+	ul li.dropdown{
+		display:block;
+
+
+	}
+	ul li.dropdown .itemdown{
+		width: 100%;
+		position:relative;
+		 padding:3px;
+	}
+	ul li.dropdown .itemdown li a
+	{
+		width: 90%;
+		 padding:3px;
+	}
+	
+}
+
+/*------ Moves to the Top ------*/
+.back-to-top
+{
+	background:none;
+	margin:0px;
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:40px;
+	height:40px;
+	z-index:100;
+	display:none;
+	color:white;
+} 
+
+.back-to-top i
+{
+	font-size:30px;
+	border-radius:40px;
+	border:3px;
+	background-color:transparent;
+	color:white;
+}
+
+.back-to-top i:hover
+{
+	color:lightgrey;
+}
+/*-----------*/
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+
+
+/* ---------------Admin Edit Products (table) ----------------------

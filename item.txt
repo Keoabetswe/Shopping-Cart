@@ -1,0 +1,30 @@
+	Nokia 3310	500	10	899	1.jpg
+	Huawei P10	3000	5	3999	2.jpg
+	Apple iPad Pro	8000	5	8999	3.jpg
+	Samsung Galaxy Tab	5999	10	7000	4.jpg
+	Sony PlayStation4	2999	4	3900	5.jpg
+	Redragon Mouse	599	5	799	6.jpg
+	Kotion Headset	399	10	699	7.jpg
+	JBL Speaker	599	5	799	8.jpg
+	Dell Monitor 22.5"	1500	3	2200	9.jpg
+	Hisense 40 inch TV	3500	5	4200	10.jpg
+	Sony Digital Camera	699	10	1000	11.jpg
+	SanDisk 8GB USB	50	10	99	12.jpg
+	HP Celeron Notebook	2999	4	3500	13.jpg
+	External Drive 500GB	499	5	799	14.jpg
+	Xbox One 1TB	3100	5	3800	15.jpg	
+	Fitbit Loop Band	150	10	400	16.jpg
+	Logitech Keyboard	99	5	229	17.jpg
+	Ellies HDMI Cable	20	10	55	18.jpg
+	VR Headset	199	5	300	19.jpg
+	Phillips Electric Shave	600	3	799	20.jpg
+	Xiaomi WiFi Router	899	5	1199	21.jpg
+	Wireless Charger	499	5	699	22.jpg
+	Nintendo Switch	399	4	5200	23.jpg
+	Blu-ray Player	899	3	1200	24.jpg	
+	DSTV Explora 2	699	7	999	25.jpg
+	Digital Photo Frame	325	6	599	26.jpg
+	Kindle 7 inch Tablet	550	10	899	27.jpg
+	Canon PIXMA Printer	350	10	499	28.jpg
+	Canon Digital Camera	1999	5	2599	29.jpg
+	Huawei 3G Dongle	399	10	560	30.jpg

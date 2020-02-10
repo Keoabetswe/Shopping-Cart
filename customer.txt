@@ -1,0 +1,30 @@
+	Simon	Ford	0113111587	Ford@gmail.com	123 Rose Street Lynwood
+	Clay	Swanson	0733920667	cSwan@gmail.com	14 Curch Street Atterbury
+	Mercedes	Rice	0485588788	rice@gmail.com	23 Jordan Street Hatfield
+	John	Hill	0948967044	jHIll@gmail.com	24 Kobe Street Lynwood
+	Paul	Berry	0804492866	berry@gmail.com	54 Jefferson Avenue Faerie Glen
+	Abraham	Griffith	0193954378	griff@gmail.com	70 Andover street Lynwood
+	Damon	Fleming	0245030822	damonF@gmail.com	543 Market street Hatfield
+	Ivan	Klein	0221115523	klein@gmail.com	43 Roberts street Faerie Glen
+	Bernadette	King	0996907643	king@yahoo.com	94 Willow street Centurion
+	Leslie	Garner	0341802414	garner@yahoo.com	66 Maple street Midrand
+	Spencer	Mills	0525099088	mill@hotmail.com	41 Monroe Pretoria North
+	Jessie	Edwards	0513516449	edwards@gmail.com	10 West Lynwood Glen
+	Sylvester	Collins	0708767701	collins@gmail.com	12 Parkstreet Arcadia
+	Rufus	Williamson	0828077124	rufus@yahoo.com	91 Eagle street Midrand
+	Shelley	Barnes	0985554657	barnes@gmail.com	126 Spruce street Centurion
+	Becky	Willis	0794929942	becky@gmail.com	321 Water street Hatfield
+	Lorenzo	Abbott	0211747493	enzo@gmail.com	5378 Adams Pretoria East
+	Willie	Mason	0871923269	mason@hotmail.com	74 Homestead Drive Waterkloof
+	Robin	Murphy	0614830861	robinM@gmail.com	87 Kirnkney street Amandasig
+	Anthony	Marshall	0566325552	marshall@gmail.com	803 South street Karenpark
+	Nick	Newton	0274315665	newtonNick@gmail.com	316 Lame street Orchards
+	Ida	Poole	0394974035	poole@gmail.com	619 Rey street Chantelle
+	Ellen	Spencer	0961310029	spencer@gmail.com	316 Austin street Theresapark
+	Eunice	Holt	0107444565	holt@gmail.com	419 Square street Gezina
+	Cristina	Blair	0553557585	blair@gmail.com	710 Queen street Riviera
+	Martin	Barrett	0434769541	martin@yahoo.com	910 Ville street Silverton
+	Isabel	Jimenez	0267289192	isabel@gmail.com	215 Wavery Hatfield
+	Benny	Gonzales	0873648244	benny@gmail.com	300 Spartan street Menlyn
+	Shelly	Jennings	0298206490	shelly@gmail.com	765 Walt street Wonderboom
+	Brenda	Day	0404226405	day@gmail.com	3428 Weaver street Montana
