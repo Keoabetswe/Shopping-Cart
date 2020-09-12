@@ -16,7 +16,7 @@ $db_connect = mysqli_connect($db_host, $db_username, $db_password, $db_name);
 if (isset($_POST['register'])) 
 {
   // receive all input values from the form
-  $name = mysqli_real_escape_string($db, $_POST['FName']);
+  $name = mysqli_real_escape_string($db, $_POST['uFName']);
   $surname = mysqli_real_escape_string($db, $_POST['LName']);
   $email = mysqli_real_escape_string($db, $_POST['Email']);
   $password_1 = mysqli_real_escape_string($db, $_POST['Password']);
@@ -49,7 +49,7 @@ if (isset($_POST['register']))
 
   // first check the database to make sure 
   // a user does not already exist with the same username and/or email
-  $user_check_query = "SELECT * FROM tbl_user WHERE FName='$name' OR Email='$email' LIMIT 1";
+  $user_check_query = "SELECT * FROM tbl_user WHERE uFName='$name' OR uEmail='$email' LIMIT 1";
   $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
   
@@ -69,12 +69,12 @@ if (isset($_POST['register']))
   // register user if there are no errors 
   if (count($errors) == 0) 
   {
-  	$password = md5($password_1);//encrypt the password before saving in the database
+  	//$password = md5($password_1);//encrypt the password before saving in the database
 
-  	$query = "INSERT INTO tbl_user (FName,LName,Email, Password) VALUES('$name','$surname', '$email', '$password')";
+  	$query = "INSERT INTO tbl_user (uFName,uLName,uEmail, uPassword) VALUES('$name','$surname', '$email', '$password_1')";
   	mysqli_query($db, $query);
   	
-  	$getUser = "SELECT * FROM tbl_user WHERE FName='$name' AND Password='$password'";
+  	$getUser = "SELECT * FROM tbl_user WHERE uFName='$name' AND uPassword='$password'";
   	$newUser = mysqli_query($db, $getUser );
   	
 	if (mysqli_num_rows($newUser) == 1) 
@@ -106,8 +106,8 @@ if (isset($_POST['login']))
 
   if (count($errors) == 0) 
   {
-	$password = md5($password);
-  	$query = "SELECT * FROM tbl_user WHERE FName='$name' AND Password='$password'";
+	//$password = md5($password);
+  	$query = "SELECT * FROM tbl_user WHERE uFName='$name' AND uPassword='$password'";
   	$results = mysqli_query($db, $query);
   	
   	if (mysqli_num_rows($results) == 1) 
@@ -117,7 +117,9 @@ if (isset($_POST['login']))
      $_SESSION['UserID'] = $row["ID"]; //stores user ID for checking history
 	 $_SESSION['loggedIn'] = true;	//stores in user login status
   	  header('location: index.php');
-  	}else 
+    }
+    
+    else 
   	{
   		array_push($errors, "Wrong username/password combination");
   	}
@@ -143,7 +145,7 @@ if (isset($_POST['submit']))
   {
   	//$password = md5($pass);
   	$admin_privilege = 1;
-  	$query = "SELECT * FROM tbl_user WHERE FName='$name' AND Password='$pass' AND Admin='$admin_privilege'";
+  	$query = "SELECT * FROM tbl_user WHERE uFName='$name' AND uPassword='$pass' AND uAdmin='$admin_privilege'";
   	$results = mysqli_query($db, $query);
   	
   	if (mysqli_num_rows($results) == 1) 
