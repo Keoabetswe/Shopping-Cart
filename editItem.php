@@ -1,10 +1,10 @@
 ﻿<?php
 session_start();
 
-$db_host="localhost";	
-$db_username="root";	
-$db_password="";	
-$db_name="test";
+$db_host="us-cdbr-east-02.cleardb.com";	
+$db_username="babab8844655c8";	
+$db_password="fa85e879";	
+$db_name="heroku_1f84699d008c6be";
 $db_connect = mysqli_connect($db_host, $db_username, $db_password, $db_name);	
 
 
