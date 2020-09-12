@@ -147,6 +147,15 @@ CREATE TABLE IF NOT EXISTS `tbl_order` (
 --
 -- Dumping data for table `tbl_order`
 --
+create table tbl_user(
+				ID int NOT NULL Primary Key AUTO_INCREMENT,
+				uAdmin int not null,
+				uFName varchar(50) NOT NULL,
+				uLName varchar(50) NOT NULL,
+				uEmail varchar(50) NOT NULL,
+				uPassword varchar(50) NOT NULL);
+                
+select * from tbl_user;
 
 INSERT INTO `tbl_order` (`OrderNum`, `OrderDate`, `CustomerNum`) VALUES
 (1, '2018/03/16', 1),
@@ -200,7 +209,7 @@ CREATE TABLE IF NOT EXISTS `tbl_ordered_item` (
 -- Dumping data for table `tbl_ordered_item`
 --
 
-INSERT INTO `tbl_ordered_item` (`OrderItemID`, `OrderNum`, `ItemID`) VALUES
+INSERT INTO `tbl_ordered_item` (`OrderItemID`, `OrderNum`, `ItemID`) VALUEStbl_item
 ('OT_1', 2, 1),
 ('OT_2', 5, 4),
 ('OT_3', 3, 2),
